@@ -6,7 +6,7 @@ use autodie;
 
 say "Type your name below?";
 my $name = <STDIN>;
-exit 1 unless defined $name;
+exit 1 unless (defined $name);
 chomp $name;
 
 say "Hello $name!"
