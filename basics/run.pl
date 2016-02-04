@@ -2,10 +2,15 @@
 
 use v5.10;
 use warnings;
-use autodie;
 
+say "What is your name?";
+my $name = <STDIN>;
 
-print "Enter your name: ";
-my $var = <STDIN>;
-chomp $var;
-say "Hello, $var!";
+if (!defined $name) {
+    print "Nothing typed!";
+    exit 1;
+} else {
+    chomp $name;
+}
+
+say "Hello, $name!";
