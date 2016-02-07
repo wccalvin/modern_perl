@@ -2,6 +2,7 @@
 
 use v5.10;
 use warnings;
+use autodie;
 
 say "What is your name?";
 my $name = <STDIN>;
