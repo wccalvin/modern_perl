@@ -10,4 +10,4 @@
     - Combination of any characters
     - Single-Quotes: No interpolation of variables
     - Double-Quotes: Interpolation of varialbes is possible
-    - Example: interpolation.pl
+        - Example: [interpolation.pl](https://github.com/wccalvin/modern_perl/blob/master/basics/interpolation.pl)
