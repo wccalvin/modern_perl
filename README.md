@@ -25,4 +25,4 @@
 
 - String Operators:
     - Concatenation \(joining strings\)
-        - Example: the dot operator: [concatenate.pl]()
+        - Example: the dot operator: [concatenate.pl](https://github.com/wccalvin/modern_perl/blob/master/basics/concatenate.pl)
