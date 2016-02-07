@@ -1,3 +1,2 @@
-# Modern Perl 
-## This repository is a collection of perl scripts
-**The examples listed here are created using version 5.22.0**
+# Notes of Perl with examples
+*The examples listed here are created using version 5.22.0*
