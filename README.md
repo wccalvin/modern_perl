@@ -11,3 +11,10 @@
     - Single-Quotes: No interpolation of variables
     - Double-Quotes: Interpolation of varialbes is possible
         - Example: [interpolation.pl](https://github.com/wccalvin/modern_perl/blob/master/basics/interpolation.pl)
+- Numeric Operators:
+    - add [+]
+    - subtract[-]
+    - multiply \[\*\]
+    - divide \[/\]
+    - modulus \[%\] -- Remainder of division
+    - exponential \[\*\*\] 
