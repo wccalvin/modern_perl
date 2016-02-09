@@ -37,5 +37,5 @@
         `print '-' x 10`
 
 - **String-to-Number or Number-to-String Convertion**:
-    > Perl understands the scalar value \(string or number\) based on the operators. Although if we have something like `"1" * "2"`. Perl understands that you meant number and does multiplication \(which is 2\). The basis of the decision is based on the operator. `"1" . "2"` will be 12.
+    > Perl understands the scalar value \(string or number\) based on the operators. Although if we have something like `"1" * "2"`, Perl understands that you meant number and does multiplication \(which is 2\). The basis of the decision is based on the operator. `"1" . "2"` will be 12.
     > Although perl understands what you mean, it is best to explicitly write them for clarity. 
