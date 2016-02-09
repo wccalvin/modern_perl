@@ -8,10 +8,9 @@ say "What is your name?";
 my $name = <STDIN>;
 
 if (!defined $name) {
-    print "Nothing typed!";
+    say "Nothing typed!";
     exit 1;
 } else {
     chomp $name;
+    say "Hello, $name!";
 }
-
-say "Hello, $name!";
