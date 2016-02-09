@@ -28,5 +28,7 @@
         - Example: the dot operator: [concatenate.pl](https://github.com/wccalvin/modern_perl/blob/master/basics/concatenate.pl)
     - Repeat
         - Repeating the string number of times.
+        - Operator: x
+        - Syntax: STRING x TIMES
         - Example:
         `print '-' x 10`
