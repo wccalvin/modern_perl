@@ -24,7 +24,10 @@
     - exponential \[\*\*\] 
 
 - String Operators:
-    - Concatenation \(joining strings\)
+    - Concatenation 
+        - Joining multiple strings
+        - Operator: .
+        - Syntax: STRING . STRING
         - Example: the dot operator: [concatenate.pl](https://github.com/wccalvin/modern_perl/blob/master/basics/concatenate.pl)
     - Repeat
         - Repeating the string number of times.
