@@ -11,3 +11,9 @@ say 'This is my variable: $fruit';
 
 # Double-Quotes (Interpolation of variables)
 say "This is my variable: $fruit";
+
+# Escape-quotes
+my $veg = "Carrot";
+
+say "This is my '\$veg': $veg";
+
