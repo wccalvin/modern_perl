@@ -20,7 +20,7 @@ say "\$is_smaller: $answer2";
 # If value is empty string or 0 it means false
 # If value is not an empty string or any other number, it means true.
 
-################################################################################
+######################################################################
 ###
 ### Description: finds the boolean is true or false
 ###
@@ -28,13 +28,13 @@ say "\$is_smaller: $answer2";
 ###
 ### Returns:     True or False
 ###
-################################################################################
+######################################################################
 sub bool_type {
-	my $value = shift;
-
-	if (($value eq '') || ($value == 0)) {
-		return "False";
-	} else {
-		return "True";
-	}
+    my $value = shift;
+    if (($value eq '') || ($value == 0)) {
+      return "False";
+    } else {
+      return "True";
+    }
 }
+
