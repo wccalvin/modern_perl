@@ -1,16 +1,19 @@
-* Perl debugger
+# Perl debugger
 
-** Understanding of the debugger
+### Understanding of the debugger
    It compiles the code and stops before handing it over to the
    interpreter.
 
-** Calling the debugger
+### Calling the debugger
+   ```
    perl -d program_name
    perl -d -e expr
    perl -d:Ptkdb program_name
-   - if tk is installed
 
-** Basic Commands
+   ```
+
+### Basic Commands
+   ```
    q - quit 
    h - help
    h [cmd] -- ex: h l
@@ -32,9 +35,14 @@
    B[#] - delete a break point
    w expr - set up a watch on expr
    L - list all breakpoints and watch expressions
+
+   ```
    
-** Advanced Commands
+### Advanced Commands
+   ```
    M - list of modules loaded with versions
    m[class] - list of methods available
    S[pattern] - list subroutines available
    V - list of instantiated variable
+
+   ```
