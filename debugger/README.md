@@ -1,10 +1,10 @@
 # Perl debugger
 
-### Understanding of the debugger
-   It compiles the code and stops before handing it over to the
-   interpreter.
+## Understanding of the debugger
+   > It compiles the code and stops before handing it over to the
+     interpreter.
 
-### Calling the debugger
+## Calling the debugger
    ```
    perl -d program_name
    perl -d -e expr
@@ -12,7 +12,7 @@
 
    ```
 
-### Basic Commands
+## Basic Commands
    ```
    q - quit 
    h - help
@@ -38,7 +38,7 @@
 
    ```
    
-### Advanced Commands
+## Advanced Commands
    ```
    M - list of modules loaded with versions
    m[class] - list of methods available
