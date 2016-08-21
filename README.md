@@ -1,7 +1,7 @@
 # Perl Notes with Examples
 The examples listed here are created using version 5.22.0*
 
-### SCALAR 
+## SCALAR 
 
 - Scalar is one of something (numbers or strings)
 
