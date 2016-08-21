@@ -5,17 +5,17 @@ The examples listed here are created using version 5.22.0*
 
 - Scalar is one of something (numbers or strings)
 
-- **Numbers:**
+#### Numbers:
     - Integers (1, 2, 3)
     - Floats (1.1, 2.2, 3.3)
 
-- **Strings:**
+#### Strings:
     - Combination of any characters
     - Single-Quotes: No interpolation of variables
     - Double-Quotes: Interpolation of variables is possible
     - Example: [interpolation.pl](https://github.com/wccalvin/modern_perl/blob/master/basics/interpolation.pl)
 
-- **Numeric Operators:**
+#### Numeric Operators:
     - add [+]
     - subtract[-]
     - multiply \[\*\]
@@ -23,7 +23,7 @@ The examples listed here are created using version 5.22.0*
     - modulus \[%\] -- Remainder of division
     - exponential \[\*\*\] 
 
-- **String Operators:**
+#### String Operators:
     - *Concatenation* 
         - Joining multiple strings
         - Operator: .
@@ -36,12 +36,12 @@ The examples listed here are created using version 5.22.0*
         - Example:
         `print '-' x 10`
 
-- **String-to-Number or Number-to-String Convertion:**
+#### String-to-Number or Number-to-String Convertion:
     > Perl understands the scalar value \(string or number\) based on the operators. Although if we have something like `"1" * "2"`, Perl understands that you meant number and does multiplication \(which is 2\). The basis of the decision is based on the operator. `"1" . "2"` will be 12.
     > Although perl understands what you mean, it is best to explicitly write them for clarity. 
     - Example: [scalar_convertion.pl] (https://github.com/wccalvin/modern_perl/blob/master/basics/scalar_convertion.pl)
 
-- **Boolean Values:**
+#### Boolean Values:
     > Perl doesn't have seperate boolean datatype like True or False
 
     - if value is a number, 0 means false, all other is true.
